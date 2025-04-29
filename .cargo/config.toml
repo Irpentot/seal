@@ -30,3 +30,4 @@ move-clippy = [
 
 [build]
 rustflags = ["-C", "force-frame-pointers=yes", "-C", "force-unwind-tables=yes"]
+cargo run --bin seal-cli -- --help
